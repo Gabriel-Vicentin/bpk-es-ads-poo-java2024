@@ -1,14 +1,22 @@
 package exercicio17;
 
 public class Animal {
-    public String especie;
-    public Integer idade;
-    public Double peso;
+    private String especie;
+    private Integer idade;
+    private Double peso;
 
     public Animal(String especie, Integer idade, double peso) {
         this.especie = especie;
         this.idade = idade;
         this.peso = peso;
+    }
+
+    public Integer getIdade() {
+        return idade;
+    }
+
+    public Double getPeso() {
+        return peso;
     }
 
     public void alimentar(){

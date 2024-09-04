@@ -1,8 +1,8 @@
 package exercicio09;
 
 public class Produto {
-    public String nome;
-    public Double preco;
+    private String nome;
+    private Double preco;
     private Integer quantidadeEstoque;
 
     public Produto(String nome, Double preco, Integer quantidadeEstoque) {
@@ -11,11 +11,19 @@ public class Produto {
         this.quantidadeEstoque = quantidadeEstoque;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public Double getPreco() {
+        return preco;
+    }
+
     public Integer getQuantidadeEstoque() {
         return quantidadeEstoque;
-   }
+    }
 
-   public void aumentarEstoque(int valor){
+    public void aumentarEstoque(int valor){
         quantidadeEstoque += valor;
        System.out.println("A quantidade de produtos no estoque aumentou para: " + quantidadeEstoque);
    }

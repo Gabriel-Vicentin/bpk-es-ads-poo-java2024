@@ -33,15 +33,25 @@ public class Celular {
         return ligado;
     }
 
-    public void ligar(){
-        System.out.println("Ligando celular...");
-        this.ligado = true;
+    public void ligar(boolean teste) {
+        if (ligado) {
+            System.out.println("O celular esta ligado");
+        } else {
+            System.out.println("O celular esta desligado, ligando...");
+            this.ligado = true;
+        }
+
     }
 
-    public void desligar(){
-        System.out.println("Desligando celular");
-        this.ligado = false;
+    public void desligar(boolean teste) {
+        if (ligado == teste) {
+            System.out.println("O celular esta ligado, Desligando...");
+        } else {
+            System.out.println("O celular esta desligado.");
+            this.ligado = false;
+        }
     }
+
 
     @Override
     public String toString() {

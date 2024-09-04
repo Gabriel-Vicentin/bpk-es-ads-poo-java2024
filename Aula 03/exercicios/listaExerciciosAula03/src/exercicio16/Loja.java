@@ -3,9 +3,9 @@ package exercicio16;
 import java.math.BigInteger;
 
 public class Loja {
-    public String nome;
-    public String endereco;
-    public String telefone;
+    private String nome;
+    private String endereco;
+    private String telefone;
 
     public Loja(String nome, String endereco, String telefone) {
         this.nome = nome;
@@ -13,10 +13,21 @@ public class Loja {
         this.telefone = telefone;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
     public void abrirLoja(){
         System.out.println("Abrindo a loja para os clientes");
     }
-
 
     public void fecharLoja() {
         System.out.println("Fechando a loja...");

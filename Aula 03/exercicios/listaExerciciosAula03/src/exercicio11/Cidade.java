@@ -1,14 +1,27 @@
 package exercicio11;
 
 public class Cidade {
-    public String nome;
-    public Integer populacao;
-    public String estado;
+    private String nome;
+    private Integer populacao;
+    private String estado;
 
     public Cidade(String nome, Integer populacao, String estado) {
         this.nome = nome;
         this.populacao = populacao;
         this.estado = estado;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Integer getPopulacao() {
+        return populacao;
+    }
+
+    public String getEstado() {
+        return estado;
     }
 
     public void aumentarPopulacao(int valor){

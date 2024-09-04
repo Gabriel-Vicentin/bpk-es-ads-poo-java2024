@@ -1,14 +1,22 @@
 package exercicio10;
 
 public class Veiculo {
-    public String tipo;
-    public String cor;
+    private String tipo;
+    private String cor;
     private String placa;
 
     public Veiculo(String tipo, String cor, String placa) {
         this.tipo = tipo;
         this.cor = cor;
         this.placa = placa;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getCor() {
+        return cor;
     }
 
     public String getPlaca() {

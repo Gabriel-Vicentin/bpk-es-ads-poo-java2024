@@ -1,9 +1,9 @@
 package exercicio14;
 
 public class Time {
-        public String nome;
-        public String tecnico;
-        public Integer numeroDeJogadores;
+        private String nome;
+        private String tecnico;
+        private Integer numeroDeJogadores;
 
         public Time(String nome, String tecnico, Integer numeroDeJogadores) {
             this.nome = nome;
@@ -11,7 +11,20 @@ public class Time {
             this.numeroDeJogadores = numeroDeJogadores;
         }
 
-        public void adicionarJogador(int valor){
+
+        public String getNome() {
+            return nome;
+        }
+
+        public String getTecnico() {
+            return tecnico;
+        }
+
+        public Integer getNumeroDeJogadores() {
+            return numeroDeJogadores;
+        }
+
+    public void adicionarJogador(int valor){
             numeroDeJogadores += valor;
             System.out.println("Novo numero de jogadores: " + numeroDeJogadores);
         }

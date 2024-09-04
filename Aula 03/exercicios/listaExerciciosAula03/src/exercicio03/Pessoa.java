@@ -14,7 +14,10 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Eu sou o " + nome + " tenho " + idade + " anos e " + altura + "m de altura";
+        if (nome != null && idade != null && altura != null) {
+            return "Eu sou o " + nome + " tenho " + idade + " anos e " + altura + "m de altura";
+        } else {
+            return "Atributos invalidos";
+        }
     }
 }
-
