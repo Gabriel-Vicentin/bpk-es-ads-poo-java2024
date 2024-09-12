@@ -23,6 +23,18 @@ public class Produto {
         return quantidadeEstoque;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPreco(Double preco) {
+        this.preco = preco;
+    }
+
+    public void setQuantidadeEstoque(Integer quantidadeEstoque) {
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
+
     public void aumentarEstoque(int valor){
         quantidadeEstoque += valor;
        System.out.println("A quantidade de produtos no estoque aumentou para: " + quantidadeEstoque);

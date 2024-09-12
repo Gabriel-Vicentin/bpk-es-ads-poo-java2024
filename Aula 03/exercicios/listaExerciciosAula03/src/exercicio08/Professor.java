@@ -24,7 +24,17 @@ public class Professor {
         return salario;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+    public void setSalario(Integer salario) {
+        this.salario = salario;
+    }
 
     public void darAula(){
         System.out.println("Dando aula de " + disciplina);

@@ -23,6 +23,18 @@ public class Veiculo {
         return placa;
     }
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
     public void abastecer(int valor){
         System.out.println("Abastecendo: " + valor + "L");
     }

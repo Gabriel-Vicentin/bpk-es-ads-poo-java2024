@@ -26,6 +26,18 @@ public class Aluno {
         return curso;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setMatricula(Integer matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
     public void media (){
         double medianotas = 0, notas;
         for (int i = 0; i < 3; i++) {

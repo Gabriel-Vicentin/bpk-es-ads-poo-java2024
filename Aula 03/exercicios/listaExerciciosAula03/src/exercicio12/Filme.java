@@ -23,6 +23,18 @@ public class Filme {
         return duracao;
     }
 
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
+    }
+
+    public void setDuracao(Double duracao) {
+        this.duracao = duracao;
+    }
+
     public void iniciarFilme(){
         System.out.println("Iniciando...");
     }

@@ -11,7 +11,6 @@ public class Time {
             this.numeroDeJogadores = numeroDeJogadores;
         }
 
-
         public String getNome() {
             return nome;
         }
@@ -23,6 +22,18 @@ public class Time {
         public Integer getNumeroDeJogadores() {
             return numeroDeJogadores;
         }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setTecnico(String tecnico) {
+        this.tecnico = tecnico;
+    }
+
+    public void setNumeroDeJogadores(Integer numeroDeJogadores) {
+        this.numeroDeJogadores = numeroDeJogadores;
+    }
 
     public void adicionarJogador(int valor){
             numeroDeJogadores += valor;

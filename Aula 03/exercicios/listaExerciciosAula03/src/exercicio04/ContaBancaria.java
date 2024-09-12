@@ -3,9 +3,10 @@ package exercicio04;
 import java.util.Scanner;
 
 public class ContaBancaria {
+    private Integer numeroConta;
+    private Integer saldo;
+
     Scanner scanner = new Scanner(System.in);
-    public Integer numeroConta;
-    public Integer saldo;
 
     public ContaBancaria(Integer numeroConta, Integer saldo) {
         this.numeroConta = numeroConta;

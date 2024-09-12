@@ -19,6 +19,18 @@ public class Animal {
         return peso;
     }
 
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public void setIdade(Integer idade) {
+        this.idade = idade;
+    }
+
+    public void setPeso(Double peso) {
+        this.peso = peso;
+    }
+
     public void alimentar(){
         System.out.println("Alimentando o " + especie);
     }

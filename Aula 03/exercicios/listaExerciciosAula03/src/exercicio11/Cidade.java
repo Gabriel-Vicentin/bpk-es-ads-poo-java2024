@@ -24,6 +24,18 @@ public class Cidade {
         return estado;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPopulacao(Integer populacao) {
+        this.populacao = populacao;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
     public void aumentarPopulacao(int valor){
         populacao += valor;
         System.out.println("Novo numero da população: " + populacao);

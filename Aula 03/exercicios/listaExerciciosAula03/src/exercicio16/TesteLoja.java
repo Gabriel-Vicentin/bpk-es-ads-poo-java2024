@@ -1,8 +1,6 @@
 package exercicio16;
 
-import exercicio15.Jogo;
-
-public class teste {
+public class TesteLoja {
     public static void main(String[] args) {
         Loja loja1 = new Loja("Jose carros", "R. Flamboyant, palotina", "(44) 998030-4912");
 

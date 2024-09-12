@@ -17,6 +17,14 @@ public class Cozinha {
         return cor;
     }
 
+    public void setQuantidadePessoas(Integer quantidadePessoas) {
+        this.quantidadePessoas = quantidadePessoas;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
     public void Cozinhar(String comida){
         System.out.println("Cozinhando um belo prato de: " + comida);
     }

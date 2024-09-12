@@ -11,14 +11,6 @@ public class Bicicleta {
             this.tamanhoRoda = tamanhoRoda;
         }
 
-        public void pedalar() {
-            System.out.println("Você está pedalando a bicicleta " + marca + " " + modelo + ".");
-        }
-
-        public void frear() {
-            System.out.println("Você freou a bicicleta " + marca + " " + modelo + ".");
-        }
-
         public String getMarca() {
             return marca;
         }
@@ -42,4 +34,12 @@ public class Bicicleta {
         public void setTamanhoRoda(int tamanhoRoda) {
             this.tamanhoRoda = tamanhoRoda;
         }
+
+    public void pedalar() {
+        System.out.println("Você está pedalando a bicicleta " + marca + " " + modelo + ".");
     }
+
+    public void frear() {
+        System.out.println("Você freou a bicicleta " + marca + " " + modelo + ".");
+    }
+}

@@ -25,6 +25,18 @@ public class Loja {
         return telefone;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
     public void abrirLoja(){
         System.out.println("Abrindo a loja para os clientes");
     }
