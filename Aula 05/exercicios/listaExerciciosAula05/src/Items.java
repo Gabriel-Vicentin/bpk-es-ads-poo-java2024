@@ -1,4 +1,4 @@
-import exercicio09.Produto;
+/*import exercicio09.Produto;
 
 import java.util.Scanner;
 
@@ -47,11 +47,11 @@ public class Items {
     void listarItem(){
         System.out.println("Produto: " + produto.nome + " Quantidade: " + quantidade + "Valor do item: " + valor);
     }
-    
+
     @Override
     public String toString() {
         return "Produto: " + produto.nome + " Quantidade: " + quantidade + "Valor do item: " + valor;
     }
 }
-
+*/
 
